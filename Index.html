@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Copy Page</title>
+    <link rel="stylesheet" href="/Starbucks/Assets/Css/style.css">
+    <script>
+        window.onload = function () {
+        document.querySelector(".menumob").addEventListener("click", function() {
+            if (document.querySelector(" nav").style.display == 'flex') {
+
+                document.querySelector(" nav").style.display = 'none';
+                document.querySelector(".bt-white").style.display = 'none';
+                document.querySelector(".bt-black").style.display = 'none';
+                document.querySelector(".menu-right--location").style.display = 'none';
+                document.querySelector(".menu-right--img").style.display = 'none';
+                
+            } else {
+
+                document.querySelector(" nav").style.display = 'flex'
+                document.querySelector(".bt-white").style.display = 'flex';
+                document.querySelector(".bt-black").style.display = 'flex';
+                document.querySelector(".menu-right--location").style.display = 'flex';
+                document.querySelector(".menu-right--img").style.display = 'flex';
+               
+            }
+        });
+    }; 
+    </script>
+    <script>
+        window.onload = function () {
+        document.querySelector(".about-us").addEventListener("click", function() {
+            if (document.querySelector(" .about-us ul li").style.display == 'block') {
+
+                document.querySelector(" .about-us ul li").style.display = 'none';
+                
+                
+            } else {
+
+                document.querySelector(" .about-us ul li").style.display = 'block'
+                
+               
+            }
+        });
+    }; 
+    </script>
+</head>
+<body>
+    <header>
+        <div class="menu-left">
+            <div class="menu-left-img">
+                <img src="Assets/images/starbucks-nav-logo.svg" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="" >Rewards</a></li>
+                    <li><a href="">Nosso café</a></li>
+                    <li><a href="" >Impacto social</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu-right">
+            <div class="menu-right--img">
+                <img src="Assets/images/sb-historias-logo.svg" alt="">
+            </div>
+            <div class="menu-right--location"> 
+                <svg  aria-hidden="true" focusable="false" style="width:24px;height:24px;overflow:visible"><path d="M12,11.475 C10.5214286,11.475 9.32142857,10.299 9.32142857,8.85 C9.32142857,7.401 10.5214286,6.225 12,6.225 C13.4785714,6.225 14.6785714,7.401 14.6785714,8.85 C14.6785714,10.299 13.4785714,11.475 12,11.475 M12,1.5 C7.85357143,1.5 4.5,4.7865 4.5,8.85 C4.5,14.3625 12,22.5 12,22.5 C12,22.5 19.5,14.3625 19.5,8.85 C19.5,4.7865 16.1464286,1.5 12,1.5"></path></svg>
+                <a href="" class="">Encontre uma loja</a>
+            </div>
+            <div class="bt-header"> 
+                <a href="" class="bt-general bt-white">Entrar</a>
+            </div>
+            <div class="bt-header"> 
+                <a href="" class="bt-general bt-black">Participe agora</a>
+            </div>
+        </div>
+        <div class="menumob">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner-carrossel">
+                <div><img src="/Starbucks/Assets/images/banner_2437495195_desktop.jpg" alt=""></div>
+                <div><img src="/Starbucks/Assets/images/banner_1238893150_desktop (1).jpg" alt=""></div>
+            </div>
+            <div class="banner-controls">
+                <div class="banner-controls--right controls">
+                    <svg width="16" height="16"  xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.78 2.22a.75.75 0 0 0-1.06 0L4.468 7.472a.75.75 0 0 0 0 1.06l5.252 5.252a.75.75 0 1 0 1.06-1.06L6.06 8.001l4.72-4.721a.75.75 0 0 0 0-1.06Z" /></svg>
+                </div>
+                <div class="banner-controls--left controls">
+                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" ><path fill-rule="evenodd" clip-rule="evenodd" d="M5.22 2.22a.75.75 0 0 1 1.06 0l5.252 5.252a.75.75 0 0 1 0 1.06L6.28 13.784a.75.75 0 1 1-1.06-1.06l4.72-4.723L5.22 3.28a.75.75 0 0 1 0-1.06Z" /></svg>
+                </div>
+            </div>
+        </section>
+        <section class="contenier bn-text">
+            <div>
+                <p>Conforme abrimos nossas lojas, permanecemos no compromisso com a saúde e bem-estar de nossos partners e consumidores.</p>
+                <a class="bt-general bt-effect" href="">Saiba mias</a>
+            </div>
+        </section>
+        <section class="grid1 area--1">
+            <div class="contenier contenier-grid grid-img">
+                <div class="areaA">
+                    <img src="/Starbucks/Assets/images/sb-dia-do-fotografo.jpg" alt="">
+                </div>
+                <div class="areab">
+                    <h1>Voltando ao que amamos juntos</h1>
+                    <p>Queridos clientes, partners e amigos, estamos acompanhando a situação atual do Brasil em relação ao COVID-19, focados na segurança e bem estar dos nossos partners (como chamamos os nossos colaboradores) e clientes. Seguimos os critérios de quarentena de cada munícipo que temos lojas. As lojas abertas ou com entrega via delivery, através do nosso parceiro Rappi, estão seguindo as orientações das autoridades de saúde.</p>
+                    <a class="bt-general bt-effect" href="">Baixe nosso App e verifique as lojas em funcionamento.</a>
+                </div>
+            </div>
+        </section>
+        <section class="grid2 area--2 ">
+            <div class="contenier contenier-grid grid-reverse">
+                <div class="areaA"></div>
+                <div class="areab">
+                    <h1>Saboreie uma pausa</h1>
+                    <p>Saboreie uma pausa com uma de nossas bebidas</p>
+                    <a class="bt-general bt-effect" href="">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+        <section class="grid1 area--3">
+            <div class="contenier contenier-grid">
+                <div class="areaA"></div>
+                <div class="areab">
+                    <h1>Esperança e união</h1>
+                    <p>Em parceria com ONGs, Partners da Starbucks se mobilizam para entregar café às comunidades.</p>
+                    <a class="bt-general bt-effect" href="">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+        <section class="grid2 area--4">
+            <div class="contenier contenier-grid grid-reverse">
+                <div class="areaA"></div>
+                <div class="areab">
+                    <h1>Coisas boas estão acontecendo</h1>
+                    <p>Um gesto de carinho àqueles que estão na linha de frente todos os dias.</p>
+                    <a class="bt-general bt-effect" href="">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="row"></div> 
+    <footer>
+        <div class="contenier-footer--princ">
+            <div class="acess contenier-footer">
+                <div class="about-us">
+                    <ul>
+                        <h3>Sobre Nós</h3>  
+                        <li><a href="#">Nossa empresa</a></li>
+                        <li><a href="#">Nossa Café</a></li>
+                        <li><a href="#">Nossa Atendimento ao cliente</a></li>
+                    </ul>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16">
+                        <path fill="#000000" fill-rule="evenodd" d="M12.2929,5.292875 C12.6834,4.902375 13.3166,4.902375 13.7071,5.292875 C14.0976,5.683375 14.0976,6.316555 13.7071,6.707085 L8.70711,11.707085 C8.31658,12.097605 7.68342,12.097605 7.29289,11.707085 L2.29289,6.707085 C1.90237,6.316555 1.90237,5.683375 2.29289,5.292875 C2.68342,4.902375 3.31658,4.902375 3.70711,5.292875 L8,9.585765 L12.2929,5.292875 Z"/>
+                    </svg>
+                </div>
+                <div class="about-us">
+                    <ul>
+                        <h3>Carreira</h3> 
+                        <li><a href="#"> Central de carreiras</a></li>
+                    </ul>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16">
+                        <path fill="#000000" fill-rule="evenodd" d="M12.2929,5.292875 C12.6834,4.902375 13.3166,4.902375 13.7071,5.292875 C14.0976,5.683375 14.0976,6.316555 13.7071,6.707085 L8.70711,11.707085 C8.31658,12.097605 7.68342,12.097605 7.29289,11.707085 L2.29289,6.707085 C1.90237,6.316555 1.90237,5.683375 2.29289,5.292875 C2.68342,4.902375 3.31658,4.902375 3.70711,5.292875 L8,9.585765 L12.2929,5.292875 Z"/>
+                    </svg>
+                </div>
+                <div class="about-us">
+                    <ul>
+                        <h3>Impacto Social</h3>                     
+                        <li><a href="#">Comunidade</a></li>
+                        <li><a href="#">Meio ambiente</a></li>
+                        <li><a href="#">Fornecimento ético</a></li>
+                        <li><a href="#">Histórias Starbucks</a></li>
+                    </ul>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16">
+                        <path fill="#000000" fill-rule="evenodd" d="M12.2929,5.292875 C12.6834,4.902375 13.3166,4.902375 13.7071,5.292875 C14.0976,5.683375 14.0976,6.316555 13.7071,6.707085 L8.70711,11.707085 C8.31658,12.097605 7.68342,12.097605 7.29289,11.707085 L2.29289,6.707085 C1.90237,6.316555 1.90237,5.683375 2.29289,5.292875 C2.68342,4.902375 3.31658,4.902375 3.70711,5.292875 L8,9.585765 L12.2929,5.292875 Z"/>
+                    </svg>
+                </div>
+                <div class="about-us">
+                    <ul>
+                        <h3>Starbucks Rewards</h3>
+                        
+                        <li><a href="#">Baixe o Aplicativo</a></li>
+                        <li><a href="#">Termos & Condições de Starbucks Card</a></li>
+                        <li><a href="#">Termos & Condições de Starbucks Rewards</a></li>
+                        <li><a href="#">Termos & Condições de Promoções Rewards</a></li>
+                    </ul>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16">
+                        <path fill="#000000" fill-rule="evenodd" d="M12.2929,5.292875 C12.6834,4.902375 13.3166,4.902375 13.7071,5.292875 C14.0976,5.683375 14.0976,6.316555 13.7071,6.707085 L8.70711,11.707085 C8.31658,12.097605 7.68342,12.097605 7.29289,11.707085 L2.29289,6.707085 C1.90237,6.316555 1.90237,5.683375 2.29289,5.292875 C2.68342,4.902375 3.31658,4.902375 3.70711,5.292875 L8,9.585765 L12.2929,5.292875 Z"/>
+                    </svg>
+                </div>
+                <div class="about-us">
+                    <ul>
+                        <div>
+                            <h3>Sobre Nós</h3> 
+                        </div>
+                        <li><a href="#">Nossa empresa</a></li>
+                        <li><a href="#">Nossa Café</a></li>
+                        <li><a href="#">Nossa Atendimento ao cliente</a></li>
+                    </ul>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16">
+                        <path fill="#000000" fill-rule="evenodd" d="M12.2929,5.292875 C12.6834,4.902375 13.3166,4.902375 13.7071,5.292875 C14.0976,5.683375 14.0976,6.316555 13.7071,6.707085 L8.70711,11.707085 C8.31658,12.097605 7.68342,12.097605 7.29289,11.707085 L2.29289,6.707085 C1.90237,6.316555 1.90237,5.683375 2.29289,5.292875 C2.68342,4.902375 3.31658,4.902375 3.70711,5.292875 L8,9.585765 L12.2929,5.292875 Z"/>
+                    </svg>
+                </div>
+                <div class="about-us--img">
+                    <img src="Assets/images/sb-historias-logo.svg" alt="">
+                </div>
+                
+            </div>
+            <hr>
+            <div class="row">
+                <ul class="sb-footer-social flex">
+                    <li>
+                        <a href="#" target="_blank"><img alt="Spotify Logo" src="/Starbucks/Assets/images/icon-spotify.svg"></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><img alt="Spotify Logo" src="/Starbucks/Assets/images/icon-facebook.svg"></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><img alt="Spotify Logo" src="/Starbucks/Assets/images/icon-linkedin.svg"></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><img alt="Spotify Logo" src="/Starbucks/Assets/images/icon-instagram.svg"></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><img alt="Spotify Logo" src="/Starbucks/Assets/images/icon-youtube.svg"></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><img alt="Spotify Logo" src="/Starbucks/Assets/images/icon-twitter.svg"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="politic">
+                <a href="#">Política de privacidade</a>
+                <a href="#">Política de troca de produto</a>
+                <a href="#">Termos de  uso</a>
+                <a href="#">Política de Cookies</a>
+            </div>
+            <div class="copyright"> &copy;2022 Starbucks Coffee Company. Todos os direitos reservados. <p>Recriado com muito carinho pelo Jonathan para fins estudantis!</p></div>
+        </div>
+    </footer>
+</body>
+</html>
