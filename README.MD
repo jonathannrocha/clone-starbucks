@@ -11,8 +11,8 @@
 <h2 align="center">Sobre 📖</h2>
 
    <p align="center">
-      Projeto desenvolvido com intuito  de aplicar o aprendizado com à <a href="https://b7web.com.br/fullstack/">B7 Web</a><br>
-      O projeto tem como inspiração uma o layout do site da Starbucks. 😀<br>
+      Projeto desenvolvido com intuito  de aplicar o aprendizado com à <a href="https://b7web.com.br/fullstack/">B7 Web.</a><br>
+      O projeto tem como inspiração o layout do site da Starbucks. 😀<br>
    </p>
 
 - O que foi aprendido com este projeto:
