@@ -4,7 +4,7 @@
 
 ---
 
-<h2 align="center">"Projeto Clone do site da Starbucks</h1>
+<h2 align="center">"Projeto Clone do site da Starbucks"</h1>
 
 ---
 
