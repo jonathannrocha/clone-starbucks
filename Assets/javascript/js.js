@@ -3,6 +3,7 @@
 
 function about() {
     console.log('aqui');
+
     document.querySelector('.contenier-footer--princ .about-us').classList.remove('active-about')
 
     document.querySelector('.contenier-footer--princ .about-us').classList.add('active-about');

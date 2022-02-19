@@ -1,5 +1,7 @@
 <p align="center">
-      <img src="/Assets/images/starbucks-nav-logo.svg" width="30%" alt="Awax Logo"/>
+      <img src="/Assets/images/image site desktop.png" width="30%" alt="Awax Logo"/>
+      <img src="/Assets/images/image site mobile.png" width="30%" alt="Awax Logo"/>
+      <img src="/Assets/images/Table image.png" width="30%" alt="Awax Logo"/>
 </p>
 
 ---
