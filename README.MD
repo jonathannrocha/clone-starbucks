@@ -1,31 +1,15 @@
-<p align="center">
-      <img src="/Assets/images/starbucks-nav-logo.svg" width="30%" alt="Awax Logo"/>
-</p>
+<h2 >Screenshots 🚀</h2>
+
+<div diplay="flex" align-items="center">
+      <img src="/Assets/images/imagesitedesktop.jpg" width="30%" alt="Screenshots Deskotop"/>
+      <img src="/Assets/images/Tableimage.png" width="30%" alt="Screenshots Tablet"/>
+      <img src="/Assets/images/imagesitemobile.png" width="30%" alt=" Screenshots Mobile"/>
+</div>
 
 ---
 
-<h2 align="center">"Projeto Clone do site da Starbucks"</h1>
-
----
-
-<h2 align="center">Sobre 📖</h2>
-
-   <p align="center">
-      Projeto desenvolvido com intuito  de aplicar o aprendizado com à <a href="https://b7web.com.br/fullstack/">B7 Web.</a><br>
-      O projeto tem como inspiração o layout do site da Starbucks. 😀<br>
-   </p>
-
-- O que foi aprendido com este projeto:
-
-- ✅ "Mobile First" 💪
-- ✅ "Flexbox" 👀
-- ✅ "Responsividade" 📌
-- ✅ "Posicionamentos" 🔥
-- ✅ "Animações CSS" 🚀
-
----
-
-<h2 align="center">Tecnologias 🚀</h2>
+<h2 align="center">"Clone do site da Starbucks"</h1>
+<h2>Tecnologias 🚀</h2>
 
 - [HTML](https://html.com/)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
