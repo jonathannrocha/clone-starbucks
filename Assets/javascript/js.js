@@ -1,13 +1,14 @@
 // document.querySelectorAll('.about-us').classList.remove('active')
 
 
-function about() {
-    console.log('aqui');
 
-    document.querySelector('.contenier-footer--princ .about-us').classList.remove('active-about')
+document.querySelectorAll('.about-us').addEventListener("click", function(e) {
+    e.addClass("active");
 
-    document.querySelector('.contenier-footer--princ .about-us').classList.add('active-about');
-}
+});
+
+
+
 
 // Selector menu mobile
 document.querySelector('.menumob').addEventListener("click", function() {
