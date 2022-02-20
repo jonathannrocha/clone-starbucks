@@ -13,7 +13,7 @@ Foi possível treinar flexbox, grid, mobile firts, transition e transform.
 </div>
 
 
-<h2> table </h2>
+<h2> tablet </h2>
 <div>
        <img src="/Assets/images/Tableimage.png" width="30%" alt="Screenshots Tablet"/>
 </div>
