@@ -1,15 +1,6 @@
 // document.querySelectorAll('.about-us').classList.remove('active')
 
 
-
-document.querySelectorAll('.about-us').addEventListener("click", function(e) {
-    e.addClass("active");
-
-});
-
-
-
-
 // Selector menu mobile
 document.querySelector('.menumob').addEventListener("click", function() {
 
