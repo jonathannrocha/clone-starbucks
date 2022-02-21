@@ -13,17 +13,17 @@ Foi possível treinar flexbox, grid, mobile firts, transition e transform.
 </div>
 
 
-<h2> tablet </h2>
+<h2> Tablet </h2>
 <div>
        <img src="/Assets/images/Tableimage.png" width="30%" alt="Screenshots Tablet"/>
 </div>
 
-<h2> mobile </h2>
+<h2> Mobile </h2>
 <div>
         <img src="/Assets/images/imagesitemobile.png" width="30%" alt=" Screenshots Mobile"/>
 </div>
 
-<h2>Tecnologia</h2>
+<h2>Tecnologias</h2>
 
 - [HTML](https://html.com/)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
