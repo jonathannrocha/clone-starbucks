@@ -96,9 +96,14 @@ header nav li a:hover {
 }
 
 .menumob div {
+    display: fixed;
     height: 2px;
     border-bottom: 3px solid #000;
     padding-bottom: 5px;
+}
+
+.abri {
+    display: flex;
 }
 
 .menu-right {
@@ -169,10 +174,24 @@ main {
     margin-bottom: 26px;
 }
 
+@keyframes banner {
+
+    0% {
+        width:0;
+    }
+
+
+
+}
+
 .banner-carrossel {
     display: flex;
     overflow: hidden;
     width: 100%;
+}
+
+.banner-carrossel div {
+    transition: all 0.1s ease-in;
 }
 
 .banner-carrossel img {
@@ -472,6 +491,11 @@ hr {
     }
     .banner-carrossel img {
         max-width: 1200px;
+        
+    }
+
+    .banner-carrossel .banner-1 {
+        animation: banner 15s infinite;
     }
 }
 
@@ -495,7 +519,7 @@ hr {
         display: flex;
         align-items: center;
         padding: 0;
-        width: 100%;
+        width: 100%!important;
         max-width: 100% !important;
     }
     .about-us svg:hover li {
@@ -504,9 +528,14 @@ hr {
     .about-us svg {
         display: block;
         margin-left: auto;
+        transition: all .15s ease;
     }
     .about-us li {
         display: none;
+    }
+    .about-us ul {
+        width: 100%!important;
+        max-width: 100% !important;
     }
     .about-usshow {
         display: none;
@@ -655,11 +684,7 @@ hr {
     .bt-white {
         margin-bottom: 20px;
     }
-    .row::before {
-        content: '';
-        width: 200px;
-        border: 1px solid #CCC;
-    }
+    
     header .header {
         margin-bottom: 20px;
     }
