@@ -681,7 +681,7 @@ hr {
         display: none;
     }
     .banner-carrossel .banner-1 {
-        animation: banner 1s infinite ;
+        animation: banner 30s infinite ;
     }
     .bt-white {
         margin-bottom: 20px;
