@@ -180,8 +180,7 @@ main {
         width:0;
     }
 
-
-
+    
 }
 
 .banner-carrossel {
@@ -682,7 +681,7 @@ hr {
         display: none;
     }
     .banner-carrossel .banner-1 {
-        animation: banner 15s infinite;
+        animation: banner 1s infinite ;
     }
     .bt-white {
         margin-bottom: 20px;
