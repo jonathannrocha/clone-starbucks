@@ -494,9 +494,7 @@ hr {
         
     }
 
-    .banner-carrossel .banner-1 {
-        animation: banner 15s infinite;
-    }
+   
 }
 
 @media (max-width: 1100px) {
@@ -506,6 +504,8 @@ hr {
     .bt-white {
         display: none;
     }
+
+   
     .contenier-footer {
         display: block;
     }
@@ -680,6 +680,9 @@ hr {
     }
     .banner-controls {
         display: none;
+    }
+    .banner-carrossel .banner-1 {
+        animation: banner 15s infinite;
     }
     .bt-white {
         margin-bottom: 20px;
