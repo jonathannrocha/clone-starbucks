@@ -55,19 +55,24 @@ let acess = document.querySelector('.acess ')
 
 acess.addEventListener('click', (e) => {
 
-    document.querySelectorAll('.about-us li').forEach((e) => {
-        e.style.display = 'none';
-    })
+    
 
-    document.querySelectorAll('.about-us ul svg').forEach((e) => {
-        e.style.transform = "rotate(0deg)"
-        e.style.transitionDuration = '0s'
-    })
+ 
 
     let abrir = acess.querySelectorAll('.about-us')
 
     let open = e.target.parentNode
+
     if (open.querySelector('li').style.display == 'none') {
+
+        document.querySelectorAll('.about-us li').forEach((e) => {
+            e.style.display = 'none';
+        })
+    
+        document.querySelectorAll('.about-us ul svg').forEach((e) => {
+            e.style.transform = "rotate(0deg)"
+            e.style.transitionDuration = '0s'
+        })
 
         open.querySelector('svg').style.transform = "rotate(180deg)"
         open.querySelector('svg').style.transitionDuration = "0.15s"
@@ -79,8 +84,11 @@ acess.addEventListener('click', (e) => {
     } else {
 
         open.querySelectorAll('li').forEach((a) => {
+
+            open.querySelector('svg').style.transform = "rotate(0deg)"
+            open.querySelector('svg').style.transitionDuration = "0.15s"
             a.style.display = 'none';
-            console.log(open)
+            console.log('carai')
         })
 
     }
