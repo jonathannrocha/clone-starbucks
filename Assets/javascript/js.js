@@ -1,4 +1,5 @@
-// document.querySelectorAll('.about-us').classList.remove('active')
+
+let select = (e) => document.querySelector(e)
 
 
 // Selector menu mobile
@@ -25,28 +26,43 @@ document.querySelector('.menumob').addEventListener("click", function () {
 });
 
 
-select = (e) => document.querySelector(e)
+
 let btleft = select('.banner-controls--left')
 let btrigth = select('.banner-controls--right ')
 let banner = select('.banner-carrossel .banner-1')
+let balls_right= select('.banner-balls--right')
+let balls_left= select('.banner-balls--left')
 
 
 
 btleft.addEventListener('click', () => { 
-    if(banner.style.width == '100%') {
+
+    balls_left.classList.remove('balls--active')
+    balls_right.classList.remove('balls--active')
+
+    if(banner.style.width === '100%') {
+        console.log('aqui')
+
         banner.style.width = '0'
+        balls_left.classList.add('balls--active')
     }else {
+        
         banner.style.width = '100%'
+        balls_right.classList.add('balls--active')
     }
 })
 
 btrigth.addEventListener('click', () => {
    
+    balls_left.classList.remove('balls--active')
+    balls_right.classList.remove('balls--active')
 
     if(banner.style.width == '100%') {
         banner.style.width = '0'
+        balls_left.classList.add('balls--active')
     }else {
         banner.style.width = '100%'
+        balls_right.classList.add('balls--active')
     }
 })
 let acess = document.querySelector('.acess ')
@@ -54,10 +70,6 @@ let acess = document.querySelector('.acess ')
 
 
 acess.addEventListener('click', (e) => {
-
-    
-
- 
 
     let abrir = acess.querySelectorAll('.about-us')
 

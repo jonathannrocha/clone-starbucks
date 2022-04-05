@@ -183,6 +183,43 @@ main {
     
 }
 
+@keyframes banner_ball_left {
+    0% {
+        background-color:rgba(255,255,255,0.5)
+    }
+}
+
+@keyframes right {
+    0% {
+        background-color:rgba(255,255,255,0.5)
+    }
+}
+
+.balls {
+    display:flex;
+    position:absolute;
+    z-index:999;
+    width: auto;
+    height:auto;
+    bottom:20px;
+    left: 50%;
+}
+.balls .banner-balls {
+    border-radius:50%;
+    z-index: inherit;
+    margin-right: 7px;
+    bottom: 20px;
+    width:10px;
+    height:10px;
+    background-color: rgba(0, 0, 0, 0.5)!important;
+}
+
+.balls .balls--active {
+    background-color: rgba(255, 255, 255, 0.5 )!important;
+}
+
+
+
 .banner-carrossel {
     display: flex;
     overflow: hidden;
