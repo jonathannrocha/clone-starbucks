@@ -309,7 +309,7 @@ main {
 }
 
 .areaA {
-    background-image: url(/Assets/images/sb-dia-do-fotografo.jpg);
+    background-image: url(/images/sb-dia-do-fotografo.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -324,7 +324,7 @@ main {
 /* grid2 */
 
 .grid2 .areaA {
-    background-image: url(/Assets/images/featured-drinks.jpg);
+    background-image: url(/images/featured-drinks.jpg);
     background-size: contain;
     width: 100%;
     height: 100%;
@@ -338,7 +338,7 @@ main {
 /* area3 */
 
 .area--3 .areaA {
-    background-image: url(/Assets/images/donate.jpg);
+    background-image: url(/images/donate.jpg);
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -348,7 +348,7 @@ main {
 /* area4 */
 
 .area--4 .areaA {
-    background-image: url(/Assets/images/partners.jpg);
+    background-image: url(/images/partners.jpg);
     background-size: cover;
     width: 100%;
     height: 100%;

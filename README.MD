@@ -9,18 +9,18 @@ Foi possível treinar flexbox, grid, mobile firts, transition e transform.
 
 <h2> Desktop </h2>
 <div>
-       <img src="/Assets/images/imagesitedesktop.jpg" width="30%" alt="Screenshots Deskotop"/>
+       <img src="/images/imagesitedesktop.jpg" width="30%" alt="Screenshots Deskotop"/>
 </div>
 
 
 <h2> Tablet </h2>
 <div>
-       <img src="/Assets/images/Tableimage.png" width="30%" alt="Screenshots Tablet"/>
+       <img src="/images/Tableimage.png" width="30%" alt="Screenshots Tablet"/>
 </div>
 
 <h2> Mobile </h2>
 <div>
-        <img src="/Assets/images/imagesitemobile.png" width="30%" alt=" Screenshots Mobile"/>
+        <img src="/images/imagesitemobile.png" width="30%" alt=" Screenshots Mobile"/>
 </div>
 
 <h2>Tecnologias</h2>
