@@ -34,8 +34,16 @@ let balls_right= select('.banner-balls--right')
 let balls_left= select('.banner-balls--left')
 
 
+setInterval(()=> {
+    if(document.querySelector('body').clientWidth <= 904 ) {
+        left()
+    }
 
-btleft.addEventListener('click', () => { 
+}, 7000)
+btleft.addEventListener('click', left) 
+btrigth.addEventListener('click', left)
+
+function left() { 
 
     balls_left.classList.remove('balls--active')
     balls_right.classList.remove('balls--active')
@@ -50,21 +58,8 @@ btleft.addEventListener('click', () => {
         banner.style.width = '100%'
         balls_right.classList.add('balls--active')
     }
-})
+}
 
-btrigth.addEventListener('click', () => {
-   
-    balls_left.classList.remove('balls--active')
-    balls_right.classList.remove('balls--active')
-
-    if(banner.style.width == '100%') {
-        banner.style.width = '0'
-        balls_left.classList.add('balls--active')
-    }else {
-        banner.style.width = '100%'
-        balls_right.classList.add('balls--active')
-    }
-})
 let acess = document.querySelector('.acess ')
 
 

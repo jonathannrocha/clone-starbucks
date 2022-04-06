@@ -174,27 +174,6 @@ main {
     margin-bottom: 26px;
 }
 
-@keyframes banner {
-
-    0% {
-        width:0;
-    }
-
-    
-}
-
-@keyframes banner_ball_left {
-    0% {
-        background-color:rgba(255,255,255,0.5)
-    }
-}
-
-@keyframes right {
-    0% {
-        background-color:rgba(255,255,255,0.5)
-    }
-}
-
 .balls {
     display:flex;
     position:absolute;
